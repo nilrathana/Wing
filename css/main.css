@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 70px;
+    background: rgb(3,1,36);
+    background: linear-gradient(90deg, rgba(3,1,36,1) 0%, rgba(175,223,88,1) 0%, rgba(146,235,70,1) 0%, rgba(166,204,35,1) 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60vh;
+    width: 30%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+header{
+    font-size: medium;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img{
+    width: 30%;
+    margin-left: 35%;
+}
+.welcome{
+    color: gray;
+    font-size: 20px;
+}
+.blue{
+    color: rgb(20, 33, 218);
+}
+span{
+    color: rgba(166,204,35,1) ;
+}
+.contact{
+    margin-top: 15px;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color: rgb(196, 191, 191);
+}
+.form-group{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid rgba(226, 217, 217, 0.418); 
+    border-radius: 10px;
+    width: 40%;
+    background-color: rgba(226, 217, 217, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: gray;
+
+}
+input[type="text"]{
+    width: 100%;
+    background-color: rgba(226, 217, 217, 0.137);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color:white ;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(20, 33, 218);
+    width: 40%;
+    padding: 8px;
+}
+footer{
+    margin-top: 6px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 5px;
+}
+a{
+    color: rgb(20, 33, 218);
+    text-decoration: none;
+}
+
+
+
